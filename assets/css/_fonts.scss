@@ -1,0 +1,67 @@
+html {
+    body {
+        font-family: "Roboto", sans-serif;
+    }
+
+    @for $i from 1 through 6 {
+        .h#{$i}, h#{$i}, .display-#{$i}, .display-#{$i}x {
+            font-family: "coolvetica", sans-serif;
+        }
+    }
+
+    @for $i from 17 through 36 {
+        .font-#{$i} {
+            font-family: "coolvetica", sans-serif;
+        }
+    }
+
+    .btn {
+        font-family: "coolvetica", sans-serif;
+        font-weight: 500;
+    }
+}
+
+.font-coolvetica {
+    font-family: "coolvetica", sans-serif;
+}
+
+.font-roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+@font-face {
+    font-family: "coolvetica";
+    src: url("fonts/Coolvetica/book.woff2") format("woff2"),url("fonts/Coolvetica/book.woff") format("woff"),url("fonts/Coolvetica/book.otf") format("opentype");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "coolvetica";
+    src: url("fonts/Coolvetica/regular.woff2") format("woff2"),url("fonts/Coolvetica/regular.woff") format("woff"),url("fonts/Coolvetica/regular.otf") format("opentype");
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "coolvetica";
+    src: url("fonts/Coolvetica/bold.woff2") format("woff2"),url("fonts/Coolvetica/bold.woff") format("woff"),url("fonts/Coolvetica/bold.otf") format("opentype");
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('fonts/Roboto/Roboto-Regular-webfont.eot');
+    src: url('fonts/Roboto/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Roboto/Roboto-Regular-webfont.woff') format('woff'), url('fonts/Roboto/Roboto-Regular-webfont.ttf') format('truetype'), url('fonts/Roboto/Roboto-Regular-webfont.svg') format('svg');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('fonts/Roboto/Roboto-Bold-webfont.eot');
+    src: url('fonts/Roboto/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Roboto/Roboto-Bold-webfont.woff') format('woff'), url('fonts/Roboto/Roboto-Bold-webfont.ttf') format('truetype'), url('fonts/Roboto/Roboto-Bold-webfont.svg') format('svg');
+    font-weight: 700;
+    font-display: swap;
+}

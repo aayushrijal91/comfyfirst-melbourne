@@ -1,0 +1,22 @@
+﻿[
+  {
+    "outputFile": "theme.css",
+    "inputFile": "theme.scss"
+  },
+  {
+    "outputFile": "responsive..css",
+    "inputFile": "responsive..scss"
+  },
+  {
+    "outputFile": "responsive.css",
+    "inputFile": "responsive.scss"
+  },
+  {
+    "outputFile": "fonts.css",
+    "inputFile": "fonts.scss"
+  },
+  {
+    "outputFile": "style.css",
+    "inputFile": "style.scss"
+  }
+]

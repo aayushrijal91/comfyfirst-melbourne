@@ -1,0 +1,560 @@
+@import "colors";
+
+@media only screen and (max-width: 1875px){
+    .display-1x {
+        font-size: 5rem;
+    }
+
+    .display-2 {
+        font-size: 4rem;
+    }
+
+    .font-36 {
+        font-size: 2rem;
+    }
+
+    header {
+        .btn {
+            font-size: 18px;
+        }
+
+        .nav {
+            .nav-item.me-xxl-3 {
+                margin-right: 0 !important;
+            }
+        }
+    }
+
+    footer {
+        .f-logos {
+            .h4 {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    section.testimonials {
+        margin-top: -25rem;
+    }
+
+    section.form {
+        .card-body .h4 {
+            font-size: 1rem;
+        }
+    }
+
+    section.solutions {
+        h4, .h4 {
+            font-size: 1.25rem;
+        }
+
+        .h5 {
+            font-size: 1rem;
+        }
+    }
+
+    section.awards {
+        .display-5 {
+            font-size: calc(1rem + .7vw);
+            padding: 0.7rem 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 1720px) {
+    .display-1x {
+        font-size: 4rem;
+    }
+
+    .display-2 {
+        font-size: 3rem;
+    }
+
+    .display-3 {
+        font-size: 3.5rem;
+    }
+
+    header {
+        .pr {
+            display: none;
+        }
+
+        .btn {
+            font-size: 18px;
+        }
+
+        a.h5 {
+            font-size: 15px;
+        }
+
+        .col-xxl-3 {
+            flex: 0 0 auto;
+            width: 33.33333%;
+        }
+
+        .nav {
+            .nav-item.me-xxl-3 {
+            }
+        }
+    }
+
+    footer {
+        .f-logos {
+            .h4 {
+                font-size: 1rem;
+            }
+
+            .pr img {
+                height: auto;
+            }
+
+            .mx-xxl-3{
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+            }
+        }
+
+        .font-36 {
+            font-size: 1.5rem;
+        }
+    }
+
+    section.banner {
+        .me-xxl-5 {
+            margin-right: 0 !important;
+        }
+
+        .pe-xxl-5 {
+            padding-right: 0 !important;
+        }
+
+        .py-xxl-5 {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+        }
+
+        .font-36 {
+            font-size: 1.5rem;
+        }
+
+        .text-grey {
+            font-size: 14px;
+        }
+
+        h6, .h6 {
+            font-size: 16px;
+        }
+
+        .content-r {
+            max-width: 11rem;
+        }
+    }
+
+    section.coupons {
+        .font-36 {
+            font-size: 1.5rem;
+        }
+
+        .font-18 {
+            font-size: 16px;
+        }
+    }
+
+    section.member {
+        .display-2 {
+            font-size: 2.5rem;
+        }
+
+        .font-36 {
+            font-size: 1.5rem;
+        }
+
+        h5, .h5 {
+            font-size: 1rem;
+        }
+    }
+
+    section.sctas {
+        .slogo {
+            width: 50%;
+        }
+    }
+
+    section.solutions {
+        .offset-6 {
+            margin-left: 45%;
+        }
+        .h4 {
+            font-size: 1.05rem;
+        }
+    }
+
+    section.biggest {
+        .font-36 {
+            font-size: 1.5rem;
+        }
+    }
+
+    section.footer-qcb {
+        .col-xxl-7 {
+            width: 100%;
+        }
+    }
+
+    section.customers {
+        .cman img{
+            width: 80%;
+        }
+    }
+
+    section.testimonials {
+        margin-top: -27rem;
+
+        .h4 {
+            font-size: 1.05rem;
+        }
+    }
+
+    section.inner-banner {
+        .p-r {
+            right: 3rem;
+
+            .review {
+                bottom: 50%;
+            }
+        }
+
+        .review {
+            bottom: 4rem;
+        }
+
+        .badge {
+            bottom: 5px;
+        }
+    }
+
+    section.hcards {
+        .display-2 {
+            font-size: 2.5rem;
+        }
+
+        .h2 {
+            font-size: 1.5rem;
+        }
+
+        p.text-tlblue {
+            font-size: 13px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1400px){
+    .display-1x {
+        font-size: 3rem;
+    }
+
+    section.banner {
+        .font-36 {
+            font-size: 1.2rem;
+        }
+
+        .badge img{
+            width: 50%;
+        }
+    }
+
+    section.form {
+        .object-fit{
+            position: static !important;
+        }
+    }
+
+    section.sctas {
+        .scl {
+            display: none;
+        }
+    }
+
+
+    section.inner-banner {
+        .review {
+            right: 3rem;
+
+            .h4 {
+                font-size: 16px;
+            }
+        }
+
+        .badge {
+            bottom: 5px;
+        }
+
+        .bctas {
+            .bg-dark {
+
+                &:before {
+                    left: -30px;
+                    width: 30px;
+                }
+
+                &:after {
+                    right: -30px;
+                    width: 30px;
+                }
+            }
+
+            bg-white {
+
+                &:before {
+                    left: -30px;
+                    width: 30px;
+                }
+
+                &:after {
+                    right: -30px;
+                    width: 30px;
+                }
+            }
+        }
+    }
+
+    section.car {
+        .car {
+            position: static !important;
+            transform: none !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    header {
+        .col-xxl-3 {
+            width: 40%;
+        }  
+    }
+
+    section.testimonials {
+        margin-top: -15rem;
+        background: linear-gradient( 180deg,transparent 30%,$blue 30%); 
+    }
+
+    section.gas {
+        .top-card {
+            background: $blue !important;
+        }
+
+        .card-img-overlay {
+            position: static !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .display-1x {
+        font-size: 2rem;
+    }
+
+    header {
+        .col-xxl-3 {
+            width: 50%;
+        }
+    }
+
+    section.banner .font-36 {
+        font-size: 1rem;
+    }
+
+    section.member {
+        .display-2 {
+            font-size: 1.5rem;
+        }
+
+        .font-36 {
+            font-size: 1rem;
+        }
+    }
+
+    section.solutions .offset-6 {
+        margin-left: 65%;
+    }
+
+    section.customers {
+        .cman {
+            left: 23%;
+
+            img {
+                width: 65%;
+            }
+        }
+
+        .cover {
+            position: relative;
+            left: 38%;
+            top: -37%;
+
+            .display-1x {
+                font-size: 3rem;
+            }
+
+            .review:before {
+                left: -17%;
+            }
+        }
+    }
+
+    section.member {
+        .bg{
+            position: static !important;
+        }
+    }
+
+    section.awards .cover {
+        top: unset;
+        left: unset;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section.banner {
+        overflow: hidden;
+    }
+
+    section.sctas {
+        .scm {
+            max-width: 50% !important;
+        }
+    }
+
+    section.banner-finance {
+        .f-r {
+            bottom: 10%;
+        }
+    }
+
+    section.emergency {
+        .card-right {
+            &:before {
+                content: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 578px) {
+    .display-2 {
+        font-size: 2rem;
+    }
+
+    .font-36 {
+        font-size: 1.5rem;
+    }
+
+    h4, .h4 {
+        font-size: 1.1rem;
+    }
+
+    header {
+        .top {
+            .col-auto {
+                width: 45%;
+            }
+
+            .col-xxl-3 {
+                width: 55%;
+            }
+
+            .btn {
+                font-size: 16px;
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    }
+
+    section.banner {
+        
+        .pman {
+            position: relative !important;
+            picture img{
+                height: auto !important;
+            }
+        }
+    }
+
+    section.form .heading {
+        left: 59%;
+
+        .display-3 {
+            font-size: 2rem;
+        }
+    }
+
+    section.customers {
+        .cover {
+            position: relative;
+            left: 4%;
+        }
+
+        .crow {
+            height: 45rem;
+        }
+
+        .cman {
+            left: 45%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    section.testimonials {
+        margin-top: 0rem;
+    }
+
+    section.coupons {
+        .ds {
+            width: 50%;
+        }
+    }
+
+    section.member {
+        h5, .h5 {
+            font-size: 0.5rem;
+        }
+
+
+        .display-2 {
+            font-size: 1rem;
+        }
+
+        section.member .font-36 {
+            font-size: 0.5rem;
+        }
+    }
+
+    section.solutions .offset-6 {
+        margin-left: 53%;
+    }
+    
+    footer .font-36 {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    section.awards {
+        .cover {
+            height: 11rem;
+            left: 7%;
+            transform: scale(0.8) translateY(12%);
+
+            .review {
+
+
+                & :before {
+                    left: 0%;
+                }
+            }
+        }
+    }
+}
