@@ -131,7 +131,7 @@ include __DIR__ . '/src/banner.php';
 
 							<p>We are an established and certified company that offers a wide selection of air-conditioning systems to our commercial clients. Our team has have vast industry knowledge and can help you with any professional in pool package air conditioning installation needs you may have. </p>
 
-							<p>The team takes the time to listen to and completely grasp your objectives before delivering applicable solutions at a fair rate. In addition, our professionals repair, maintain, and replace numerous types of commercial pool package systems. We employ cutting-edge techniques to ensure that your systems are reliable and durable. For the best Pool Package Air Conditioning services, please call Comfy First <?= $global_city ?> on - <?= $phone ?>. Alternatively, use this Online Form to send us your queries and requests. One of our team members will call you shortly. </p>
+							<p>The team takes the time to listen to and completely grasp your objectives before delivering applicable solutions at a fair rate. In addition, our professionals repair, maintain, and replace numerous types of commercial pool package systems. We employ cutting-edge techniques to ensure that your systems are reliable and durable. For the best Pool Package Air Conditioning services, please call Comfy First <?= $global_city ?> on - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests. One of our team members will call you shortly. </p>
 
 						</div>
 					</div>

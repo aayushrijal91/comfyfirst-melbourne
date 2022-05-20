@@ -123,7 +123,7 @@ include __DIR__ . '/src/banner.php';
 
 							<p>Our team is here to help with all the information you need about these, the brands, types and more, helping you make a better-informed decision about the types of systems that would work best for you. This detailed approach ensures you get equipment that will meet your needs perfectly and provide long term value as well. </p>
 
-							<p>For the best Commercial Range Hood services, please call Comfy First <?= $global_city ?> on - <?=$phone?>. Alternatively, use this Online Form to send us your queries and requests. One of our team members will call you shortly to discuss your requirements. </p>
+							<p>For the best Commercial Range Hood services, please call Comfy First <?= $global_city ?> on - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests. One of our team members will call you shortly to discuss your requirements. </p>
 							
 						</div>
 					</div>	

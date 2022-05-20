@@ -137,7 +137,7 @@ include __DIR__ . '/src/banner.php';
 
 							<p>Before supplying suitable solutions at a reasonable price, our specialists take the time to understand your goals. Furthermore, our experts repair, service, and replace a wide range of commercial air conditioners and related components. We use advanced technology in our work so that your systems are dependable and long lasting.</p>
 
-							<p>For the best Stair Pressurisation System services, please call Comfy First <?= $global_city ?> on - <?= $phone ?>. Alternatively, use this Online Form to send us your queries and requests. One of our team members will call you shortly. </p>
+							<p>For the best Stair Pressurisation System services, please call Comfy First <?= $global_city ?> on - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests. One of our team members will call you shortly. </p>
 
 						</div>
 					</div>

@@ -129,7 +129,7 @@ include __DIR__ . '/src/banner.php';
 
 							<p>We are an insured and fully licenced company that provides our clients with a wide range of air-conditioning systems. We have extensive industry experience and assist you with any of your professional installation needs. Before providing relevant solutions at a reasonable cost, our experts take the time to listen to and clearly understand your requirements. </p>
 
-							<p>Our technicians also repair, service, and replace various types of commercial air conditioning and associated equipment. For the best Make-Up Air Supply Ventilator services, please call Comfy First <?= $global_city ?> on - <?= $phone ?>. Alternatively, use this Online Form to send us your queries and requests. One of our team members will call you shortly. </p>
+							<p>Our technicians also repair, service, and replace various types of commercial air conditioning and associated equipment. For the best Make-Up Air Supply Ventilator services, please call Comfy First <?= $global_city ?> on - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests. One of our team members will call you shortly. </p>
 
 						</div>
 					</div>

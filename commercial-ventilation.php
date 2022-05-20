@@ -136,7 +136,7 @@ include __DIR__ . '/src/banner.php';
 
 							<p>We are a well-known, licenced operator, providing business clients with a diverse assortment of commercial ventilation solutions. We have extensive industry experience and can assist you with top-notch AC systems. Our team can also handle all types of replacements, repairs and maintenance of these units. </p>
 
-							<p>We incorporate proven, modern technology in our processes to ensure that your systems' function well for many years. For the best commercial ventilation services, please call Comfy First <?= $global_city ?> on - <?= $phone ?>. Alternatively, use this Online Form to send us your queries and requests. One of our team members will call you shortly. </p>
+							<p>We incorporate proven, modern technology in our processes to ensure that your systems' function well for many years. For the best commercial ventilation services, please call Comfy First <?= $global_city ?> on - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests. One of our team members will call you shortly. </p>
 
 						</div>
 					</div>

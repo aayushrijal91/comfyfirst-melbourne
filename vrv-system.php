@@ -137,7 +137,7 @@ include __DIR__ . '/src/banner.php';
 							</ul>
 							<p>Our technicians have the expertise and capabilities to setup VRV systems in compliance with industry-established standard. They will offer you the essential information on prominent AC models and brands, allowing you to select the best device for your requirement. We also handle repairs, replacements and maintenance services for all types of air conditioning systems. </p>
 
-							<p>For any more information about our Suspended Cassette services feel free to call Comfy First <?= $global_city ?> at this number- <?= $phone ?>. You can also send us your queries and requests through this Online Form and one of our team members will contact you shortly. </p>
+							<p>For any more information about our Suspended Cassette services feel free to call Comfy First <?= $global_city ?> at this number- <a href="tel:<?= $phone ?>"><?= $phone ?></a>. You can also send us your queries and requests through this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> and one of our team members will contact you shortly. </p>
 
 
 						</div>

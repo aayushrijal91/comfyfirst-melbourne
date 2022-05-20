@@ -130,7 +130,7 @@ include __DIR__ . '/src/banner.php';
 								<li>Sleep mode configurations are another option for automatically turning the unit off at a pre-set time.</li>
 							</ul>
 							<p>Our experts are skilful and competent at installing modern window wall systems as per manufacturer's specifications. They will provide you with critical information and specifications about popular products and manufacturers. This helps you select the most appropriate AC for your needs. We provide uncompromising quality and go the extra mile to ensure that our customers are 100% satisfied with the services we offer. Our team handles everything from installation, repairs and upgrades of these AC systems.</p>
-							<p>For any more information about our Window Wall System services, feel free to call Comfy First <?= $global_city ?> at this number- <?= $phone ?>. You can also send us your queries and requests through this Online Form and one of our team members will contact you shortly to discuss your requirements.</p>
+							<p>For any more information about our Window Wall System services, feel free to call Comfy First <?= $global_city ?> at this number- <a href="tel:<?= $phone ?>"><?= $phone ?></a>. You can also send us your queries and requests through this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> and one of our team members will contact you shortly to discuss your requirements.</p>
 
 						</div>
 					</div>

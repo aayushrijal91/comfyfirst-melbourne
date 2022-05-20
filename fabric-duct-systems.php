@@ -136,7 +136,7 @@ include __DIR__ . '/src/banner.php';
 
 							<p>We can install, service, and maintain fabric ducts effectively. Our team will take aspects such as your purpose, foot traffic, and property size, etc. into consideration before providing the best solutions. We customize our services so that you get installations that will provide you with long-term value. If you want fabric duct systems in your business premises that will be durable and last long, you must choose high-quality equipment and have it professionally installed. </p>
 
-							<p>As a reputable and skilled business dedicated to providing cost-effective solutions to commercial customers, we offer repairs, installation and the replacement of different types of commercial air conditioning systems and related components. For the best Fabric Duct Systems, please call Comfy First <?= $global_city ?> on - <?= $phone ?>. Alternatively, use this Online Form to send us your queries and requests. One of our team members will call you shortly. </p>
+							<p>As a reputable and skilled business dedicated to providing cost-effective solutions to commercial customers, we offer repairs, installation and the replacement of different types of commercial air conditioning systems and related components. For the best Fabric Duct Systems, please call Comfy First <?= $global_city ?> on - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests. One of our team members will call you shortly. </p>
 
 						</div>
 					</div>

@@ -124,7 +124,7 @@ include __DIR__ . '/src/banner.php';
 
 							<p>We will provide you with all the details you need about various products and will make sure that the installation is as per manufacturer instructions- that helps keep the warranty valid, ensuring that the system functions perfectly for a long time. After the warranty period we will also design the perfect maintenance plan to keep the system working perfectly. </p>
 
-							<p>For the best Commercial Exhaust Fans Installation services, please call Comfy First <?= $global_city ?> on - <?=$phone?>. Alternatively, use this Online Form to send us your queries and requests. One of our team members will call you shortly. </p>
+							<p>For the best Commercial Exhaust Fans Installation services, please call Comfy First <?= $global_city ?> on - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a>Online Form to send us your queries and requests. One of our team members will call you shortly. </p>
 
 						</div>
 					</div>	

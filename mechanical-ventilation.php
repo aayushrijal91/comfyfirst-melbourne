@@ -129,7 +129,7 @@ include __DIR__ . '/src/banner.php';
 
 							<p>We are a licenced, reputable business that provides an array of air-conditioning solutions to business clients. We have considerable industry knowledge and can provide you with high-quality mechanical ventilation system installations. They also manage all types of upgrades, repairs, and maintenance on these units. </p>
 
-							<p>We use the latest technology and tools in our work and you can be sure that your system will perform well and last long. For the best Mechanical Ventilation services, please call Comfy First <?= $global_city ?> on - <?= $phone ?>. Alternatively, use this Online Form to send us your queries and requests. One of our team members will call you shortly. </p>
+							<p>We use the latest technology and tools in our work and you can be sure that your system will perform well and last long. For the best Mechanical Ventilation services, please call Comfy First <?= $global_city ?> on - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests. One of our team members will call you shortly. </p>
 
 						</div>
 					</div>

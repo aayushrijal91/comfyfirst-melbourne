@@ -139,7 +139,7 @@ include __DIR__ . '/src/banner.php';
 								<li>Eco-friendly</li>
 							</ul>
 							<p>We have the necessary accreditation, knowledge, and licensing to install split systems in accordance with manufacturer instructions. Our professionals will provide you with all the information you require about the key brands and models, assisting you in selecting the unit that is best suited to your needs. Additionally, we provide exceptional service, repairs, and replacements for these systems.</p>
-							<p>For more details about our Split System solutions, do not hesitate to call Comfy First <?= $global_city ?> at <?= $phone ?>. You can also send us your queries and requests through this Online Form and one of our staff members will call you shortly.</p>
+							<p>For more details about our Split System solutions, do not hesitate to call Comfy First <?= $global_city ?> at <a href="tel:<?= $phone ?>"><?= $phone ?></a>. You can also send us your queries and requests through this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> and one of our staff members will call you shortly.</p>
 						</div>
 					</div>
 					<div class="col-xxl-6 align-self-end">

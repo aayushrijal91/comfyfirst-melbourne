@@ -127,7 +127,7 @@ include __DIR__ . '/src/banner.php';
 
 							<p>Our experts are familiar with a wide range of sensor brands and types. They will only propose and install devices that have a track record of reliability. If you want durable and long lasting systems on your premises, you must opt for high quality products and the best installations. As a reliable and experienced company offering the best comprehensive solutions to commercial clients, we handle repairs, maintenance and replacement of all types of sensor units. </p>
 
-							<p>For the best Car Park Supply Systems services, please call Comfy First <?= $global_city ?> on - <?=$phone?>. Alternatively, use this Online Form to send us your queries and requests. One of our team members will call you shortly. </p>
+							<p>For the best Car Park Supply Systems services, please call Comfy First <?= $global_city ?> on - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests. One of our team members will call you shortly. </p>
 							
 						</div>
 					</div>	

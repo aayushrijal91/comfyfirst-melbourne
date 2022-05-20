@@ -135,7 +135,7 @@ include __DIR__ . '/src/banner.php';
 							</ul>
 
 							<p>Our experts can assess, evaluate, and install an AC that works best for your requirements. For details about our high grade Daikin sales & installation solutions, please call Comfy First Melbourne at - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests, and one of our experts will call you shortly.</p>
-							<p>You can also send us your queries and requests through this online form and one of our team members will contact you shortly. They will take the time to discuss your requirements and provide the best services.</p>
+							<p>You can also send us your queries and requests through this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> and one of our team members will contact you shortly. They will take the time to discuss your requirements and provide the best services.</p>
 						</div>
 					</div>
 					<div class="col-xxl-6 align-self-end">

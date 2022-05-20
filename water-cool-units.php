@@ -131,7 +131,7 @@ include __DIR__ . '/src/banner.php';
 							</ul>
 							<p>Our specialists are capable and skilled in installing water-cooled units in accordance with best practices. They will also provide you with crucial information about popular air conditioning models and brands, allowing you to select the most appropriate equipment for your needs. Additionally, we repair, replace and maintain these air conditioning systems.</p>
 
-							<p>For any more information about our Water Cool Units services, feel free to call Comfy First <?= $global_city ?> at this number- <?= $phone ?>. You can also send us your queries and requests through this Online Form and one of our team members will contact you shortly.</p>
+							<p>For any more information about our Water Cool Units services, feel free to call Comfy First <?= $global_city ?> at this number- <a href="tel:<?= $phone ?>"><?= $phone ?></a>. You can also send us your queries and requests through this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> and one of our team members will contact you shortly.</p>
 						</div>
 					</div>
 					<div class="col-xxl-6 align-self-end">

@@ -129,7 +129,7 @@ include __DIR__ . '/src/banner.php';
 
 							<p>As a reputable and competent company committed to providing effective solutions to business clients, we specialise in the repairs, service, and replacements of all makes and models of commercial air conditioning equipment. </p>
 
-							<p>For the best Commercial Airconditioning services, please call Comfy First <?= $global_city ?> on - <?=$phone?>. Alternatively, use this Online Form to send us your queries and requests. One of our team members will call you shortly. </p> 
+							<p>For the best Commercial Airconditioning services, please call Comfy First <?= $global_city ?> on - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests. One of our team members will call you shortly. </p> 
 
 						</div>
 					</div>	

@@ -123,7 +123,7 @@ include __DIR__ . '/src/banner.php';
 
 							<p>We are a certified and insured company that provides a wide range of commercial air-conditioning solutions to our customers. We are ready to assist you with all of your pool ventilation demands and have extensive industry expertise. Our professionals take the time to listen and understand your needs before providing suitable solutions at a reasonable price. </p>
 
-							<p>We also manage repairs, servicing, and replacement of all these systems, making use of the finest materials and technology available. For the best Indoor Pool Ventilation services, please call Comfy First <?= $global_city ?> on - <?=$phone?>. Alternatively, use this Online Form to send us your queries and requests. One of our team members will call you shortly. </p>
+							<p>We also manage repairs, servicing, and replacement of all these systems, making use of the finest materials and technology available. For the best Indoor Pool Ventilation services, please call Comfy First <?= $global_city ?> on - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a>Online Form to send us your queries and requests. One of our team members will call you shortly. </p>
 							
 						</div>
 					</div>	

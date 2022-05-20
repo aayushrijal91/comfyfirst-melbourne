@@ -137,7 +137,7 @@ include __DIR__ . '/src/banner.php';
 
 							<p>We help with all the information and details you need about these installations, the set-up, advantages and more. In addition to installation services, we also handle all types of replacements, repairs and maintenance of these units. We are here to guide your choices and make sure that the solutions you get are in line with your requirements. We are licensed to handle these jobs and complete every task to industry standards. </p>
 
-							<p>For the best stair pressurisation systems, please call Comfy First <?= $global_city ?> on - <?= $phone ?>. Alternatively, use this Online Form to send us your queries and requests. One of our team members will call you shortly to discuss your requirements and provide the best solutions.</p>
+							<p>For the best stair pressurisation systems, please call Comfy First <?= $global_city ?> on - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests. One of our team members will call you shortly to discuss your requirements and provide the best solutions.</p>
 
 						</div>
 					</div>

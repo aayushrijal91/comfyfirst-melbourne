@@ -136,7 +136,7 @@ include __DIR__ . '/src/banner.php';
 							</ul>
 							<p>We are certified, trained, and licenced to setup multi split system ACs in accordance with manufacturer specifications. Our experts will provide you with all the information you require about a variety of popular brands and models, assisting you in making the best possible choice. Additionally, we perform air conditioning maintenance, repairs, and replacements.</p>
 
-							<p>For any details and information about our Multi Split System solutions, feel free to contact Comfy First <?= $gobal_city ?> at this number- <?= $phone ?>. You can also send us your questions and requests through this Online Form and one of our team members will contact you shortly.</p>
+							<p>For any details and information about our Multi Split System solutions, feel free to contact Comfy First <?= $gobal_city ?> at this number- <a href="tel:<?= $phone ?>"><?= $phone ?></a>. You can also send us your questions and requests through this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> and one of our team members will contact you shortly.</p>
 						</div>
 					</div>
 					<div class="col-xxl-6 align-self-end">

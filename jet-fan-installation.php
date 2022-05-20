@@ -142,7 +142,7 @@ include __DIR__ . '/src/banner.php';
 
 							<p>Before delivering appropriate solutions at a fair price, our specialists sit down and listen to understand your demands. Our team also handles repairs, servicing, and replacement of all types of commercial AC and related components such as Jet Fans. </p>
 
-							<p>We employ the best technology and materials available so you have efficient systems that perform well for a long time. For the best Jet Fan Installation services, please call Comfy First <?= $global_city ?> on - <?= $phone ?>. Alternatively, use this Online Form to send us your queries and requests. One of our team members will call you shortly. </p>
+							<p>We employ the best technology and materials available so you have efficient systems that perform well for a long time. For the best Jet Fan Installation services, please call Comfy First <?= $global_city ?> on - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests. One of our team members will call you shortly. </p>
 
 						</div>
 					</div>

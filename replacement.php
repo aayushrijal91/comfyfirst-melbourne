@@ -140,7 +140,7 @@ include __DIR__ . '/src/banner.php';
 							</ul>
 							<p>We work with all major brands of air conditioners in <?= $global_city ?> including Brivis, Daikin, Fujitsu, Actron, Temperzone, Kelvinator etc. Whether you need a ducted, window, floor, split air conditioning system, we will provide you with detailed information and advice on various brands and models. </p>
 
-							<p>We take the time to survey your property, discuss your usage patterns and then recommend the best unit for your needs. For any more information about our air conditioning replacement services, feel free to call Comfy First <?= $global_city ?> at this number- <?= $phone ?>. You can also send us your queries and requests through this online form and one of our team members will contact you shortly. </p>
+							<p>We take the time to survey your property, discuss your usage patterns and then recommend the best unit for your needs. For any more information about our air conditioning replacement services, feel free to call Comfy First <?= $global_city ?> at this number- <a href="tel:<?= $phone ?>"><?= $phone ?></a>. You can also send us your queries and requests through this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> and one of our team members will contact you shortly. </p>
 
 						</div>
 					</div>

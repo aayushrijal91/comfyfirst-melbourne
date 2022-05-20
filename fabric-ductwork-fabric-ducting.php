@@ -137,7 +137,7 @@ include __DIR__ . '/src/banner.php';
 							</ul>
 							<p>We are acquainted with how fabric ducting functions and how to design an effective system for your premises. Our specialists will provide tailored solutions for your property depending on its foot traffic, size, and air conditioning requirements. We are a licensed and insured operator and offer our customers a host of commercial air-conditioning services including fabric ductwork. We also handle repairs, service and replacement of these systems using the best products and technology in our work. </p>
 
-							<p>For the best Fabric Ductwork / Fabric Ducting services, please call Comfy First <?= $global_city ?> on - <?= $phone ?>. Alternatively, use this Online Form to send us your queries and requests. One of our team members will call you shortly. </p>
+							<p>For the best Fabric Ductwork / Fabric Ducting services, please call Comfy First <?= $global_city ?> on - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a>Online Form to send us your queries and requests. One of our team members will call you shortly. </p>
 
 						</div>
 					</div>

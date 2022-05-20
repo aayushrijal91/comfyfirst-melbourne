@@ -137,7 +137,7 @@ include __DIR__ . '/src/banner.php';
 							</ul>
 							<p>Our team has the required credentials, skills, and licences to setup gas heating & cooling systems in accordance with manufacturer specifications. Our specialists will provide you with all of the information you need about a variety of leading makes and models so you can make the right choice. Additionally, we offer air conditioning repair, maintenance, and replacement services.</p>
 
-							<p>For any more information about our Gas Heating and Cooling System services, feel free to call Comfy First <?= $global_city ?> at this number- <?= $phone ?>. You can also send us your queries and requests through this Online Form and one of our team members will contact you shortly.</p>
+							<p>For any more information about our Gas Heating and Cooling System services, feel free to call Comfy First <?= $global_city ?> at this number- <a href="tel:<?= $phone ?>"><?= $phone ?></a>. You can also send us your queries and requests through this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> and one of our team members will contact you shortly.</p>
 
 						</div>
 					</div>
