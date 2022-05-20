@@ -132,7 +132,7 @@ include __DIR__ . '/src/banner.php';
 							</ul>
 							<p>Whichever Fujitsu AC system you need installed in your home, we are here to assist you make an informed decision. Our experts work closely with you to determine what works best for your needs before coming up with insights and advice. They will offer cost-effective solutions, keeping your budget in view so that you get value for money.</p>
 
-							<p>Our experts have the professionalism and knowledge to install an AC in line with manufacturer specifications. For details about our high grade Fujitsu sales & installation solutions, please call Comfy First <?= $global_city ?> at - <?= $phone ?>. Alternatively, use this Online Form to send us your queries and requests, and one of our experts will call you shortly. </p>
+							<p>Our experts can assess, evaluate, and install an AC that works best for your requirements. For details about our high grade Daikin sales & installation solutions, please call Comfy First Melbourne at - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests, and one of our experts will call you shortly.</p>
 						</div>
 					</div>
 					<div class="col-xxl-6 align-self-end">

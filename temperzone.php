@@ -127,7 +127,7 @@ include __DIR__ . '/src/banner.php';
 								<li><strong>Water Cooled Package Air Conditioners</strong> - These systems are ideal for high-rise buildings with unique climate control needs and problems.</li>
 								<li>Split Ducted Air Conditioning- These units are quiet and unobtrusive. They are efficient and provide yearlong comfort. The company offers an impressive product range to suit various requirements. They are perfect for shops, offices, hotels, motels, restaurants, open plans, apartments and homes. You can also find something or settings like auditoriums, shopping malls, supermarkets, workspaces and offices.</li>
 							</ul>
-							<p>Our experts can assess, evaluate, and install an AC that works best for your requirements. For details about our high grade Temperzone sales & installation solutions, please call Comfy First <?= $global_city ?> at - <?= $phone ?>. Alternatively, use this Online Form to send us your queries and requests, and one of our experts will call you shortly. </p>
+							<p>Our experts can assess, evaluate, and install an AC that works best for your requirements. For details about our high grade Daikin sales & installation solutions, please call Comfy First Melbourne at - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests, and one of our experts will call you shortly.</p>
 						</div>
 					</div>
 					<div class="col-xxl-6 align-self-end">

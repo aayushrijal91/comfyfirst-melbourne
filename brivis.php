@@ -130,7 +130,7 @@ include __DIR__ . '/src/banner.php';
 							<p>This line blends refrigerate cooling with efficient ducted gas heating to provide the ideal and cost-effective climate management solution for your entire house. The Brivis StarPro line of Ducted Gas Heaters allow you to use the brand's ICETM without replacing any existing vents or ductwork. As a result, using Brivis DualComfortTM technology saves you a substantial amount of money and time.</p>
 							<p>Whatever Brivis AC you desire, we are here to provide you with the ideal solution. Our specialists will give you all the information you want about these units, allowing you to make a more informed decision about which one to choose.</p>
 
-							<p>Our experts can assess, evaluate, and install an AC that works best for your requirements. For details about our high grade Brivis sales & installation solutions, please call Comfy First <?= $global_city ?> at - <?= $phone ?>. Alternatively, use this Online Form to send us your queries and requests, and one of our experts will call you shortly. </p>
+							<p>Our experts can assess, evaluate, and install an AC that works best for your requirements. For details about our high grade Daikin sales & installation solutions, please call Comfy First Melbourne at - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests, and one of our experts will call you shortly.</p>
 						</div>
 					</div>
 					<div class="col-xxl-6 align-self-end">

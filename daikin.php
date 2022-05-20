@@ -62,6 +62,7 @@ include __DIR__ . '/src/banner.php';
 									</div>
 								</div>
 								<p>This brand is extremely popular and well known for producing high-quality appliances used to cool big or compact spaces. If you are installing the equipment in a new build or as part of a remodel, Daikin's extensive range is likely to provide the appropriate option.</p>
+								<p>Heat pumps and ducted air conditioner units provide whole-house comfort in both existing and new houses. Indoor units are commonly installed underneath the floor or even in the ceiling. There will be bendable ducting running all through the home, delivering conditioned air through grills. The compressor is located outside the house. The company also provides 5-year parts warranties on ducted, split system, and multi split ACs purchased and installed in residences across the country.</p>
 							</div>
 						</div>
 					</div>
@@ -81,9 +82,13 @@ include __DIR__ . '/src/banner.php';
 					</div>
 					<div class="col-xxl-7">
 						<div class="py-3 py-xxl-5">
-							<p class="display-5 fw-bold line-height-1 "><?= $banner ?></p>
+							<p class="display-5 fw-bold line-height-1 ">Daikin Air Conditioners in Melbourne</p>
 							<hr class="hr-h hr-white ">
-							<p>Heat pumps and ducted air conditioner units provide whole-house comfort in both existing and new houses. Indoor units are commonly installed underneath the floor or even in the ceiling. There will be bendable ducting running all through the home, delivering conditioned air through grills. The compressor is located outside the house. The company also provides 5-year parts warranties on ducted, split system, and multi split ACs purchased and installed in residences across the country.</p>
+							<p>Split wall ACs are ideal for air-cooling a specific room/space in the home. There are several versions available from the brand, and you may pick between wall-mounted and floor standing units such as:</p>
+							<ul>
+								<li>Ducted Air Conditioners</li>
+								<li>Multi Split Air Conditioners</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -120,14 +125,13 @@ include __DIR__ . '/src/banner.php';
 								<?php
 							}*/
 							?>
-							<p>Split wall ACs are ideal for air-cooling a specific room/space in the home. There are several versions available from the brand, and you may pick between wall-mounted and floor standing units such as:</p>
 							<ul>
 								<li><strong>Ducted air conditioners</strong> — This type of air conditioner may work in two or more rooms. It means you may run the system in your living room in the daytime and in many bedrooms during the night</li>
 								<li><strong>Multi Split Air Conditioners</strong> — With a single outside unit connected to several interior units, this system can cool/heat various rooms. You may configure, regulate, and control each indoor system to your liking.</li>
 							</ul>
 							<p>We can assist you in installing the AC you choose. Our team is ready to give you information about these products so you can decide which one is ideal for you.</p>
 
-							<p>Our experts can assess, evaluate, and install an AC that works best for your requirements. For details about our high grade Daikin sales & installation solutions, please call Comfy First <?= $global_city ?> at - <?= $phone ?>. Alternatively, use this Online Form to send us your queries and requests, and one of our experts will call you shortly. </p>
+							<p>Our experts can assess, evaluate, and install an AC that works best for your requirements. For details about our high grade Daikin sales & installation solutions, please call Comfy First Melbourne at - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests, and one of our experts will call you shortly.</p>
 						</div>
 					</div>
 					<div class="col-xxl-6 align-self-end">

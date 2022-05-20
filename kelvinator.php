@@ -127,7 +127,7 @@ include __DIR__ . '/src/banner.php';
 								<li><strong>Window Wall System</strong> - This is perhaps one of the most cost-effective methods of providing safe and comfortable air to your business or home. These energy-efficient devices are powerful. If you want to cool certain areas in your home or do not have room to install an exterior unit, this is an excellent alternative. They are easier to install than a ducted system, and a cost-effective air conditioning solution.</li>
 							</ul>
 
-							<p>Our advice helps you make an informed purchase decision. Our experts can assess, evaluate, and install an AC that works best for your requirements. For details about our high grade Kelvinator sales & installation solutions, please call Comfy First <?= $global_city ?> at - <?= $phone ?>. Alternatively, use this Online Form to send us your queries and requests, and one of our experts will call you shortly. The technicians will offer sound advice and inputs so you will get excellent value for money.</p>
+							<p>Our experts can assess, evaluate, and install an AC that works best for your requirements. For details about our high grade Daikin sales & installation solutions, please call Comfy First Melbourne at - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests, and one of our experts will call you shortly.</p>
 						</div>
 					</div>
 					<div class="col-xxl-6 align-self-end">

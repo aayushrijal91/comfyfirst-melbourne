@@ -6,7 +6,7 @@ $email = 'info@comfyfirst.com.au';
 $address = 'Unit 6, 8 Jullian Close, Banksmeadow, NSW 2019';
 
 $actual_link = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-$domain = "http://$_SERVER[HTTP_HOST]/projects/cf";
+$domain = "http://$_SERVER[HTTP_HOST]/projects/comfyfirst-melbourne";
 
 $site_key = '6LfKepUUAAAAAA5yachgCAPVFrUR1rXk036Hqf8r';
 $secret = '6LfKepUUAAAAAPhqp_QISjkeMBcg75dZtXfHI4n9';
@@ -119,7 +119,7 @@ $air_con_types = [
   'Suspended Casette' => 'suspended-cassette',
   'VRV System' => 'vrv-system', //smart-controls
   'Window Wall AC System' => 'window-wall-system', //bonaire-evaporative-cooling-systems
-'Evaporative Cooling' => 'evaporative-cooling', //evaporative-cooling-systems
+  'Evaporative Cooling' => 'evaporative-cooling', //evaporative-cooling-systems
   'Multi-Air System' => 'multi-split-system',
   'Central Gas Heating System' => 'central-gas-heating-system',
   'Ducted Split Units' => 'ducted-split-units',

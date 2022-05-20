@@ -128,13 +128,13 @@ include __DIR__ . '/src/banner.php';
 
 							<p>There are many of other reasons to choose these air conditioning units, such as:</p>
 							<ul>
-								<li> Actron is a well-known Australian manufacturer of world class ACs.</li>
+								<li>Actron is a well-known Australian manufacturer of world class ACs.</li>
 								<li>In locations where you work, live, and play, these products deliver efficient, exceptional, and clean comfort.</li>
 								<li>They have a strong dealer network, which means you will receive good after-sales service during the warranty period.</li>
 								<li>Every air conditioner is designed to work effectively and perform for a long time.</li>
 							</ul>
 
-							<p>Our team can assess, plan and then install an air conditioning system best suited to your needs. For any more information about our Actron sales and installation services, feel free to call Comfy First <?= $global_city ?> at this number- <?= $phone ?>.</p>
+							<p>Our experts can assess, evaluate, and install an AC that works best for your requirements. For details about our high grade Daikin sales & installation solutions, please call Comfy First Melbourne at - <a href="tel:<?= $phone ?>"><?= $phone ?></a>. Alternatively, use this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> to send us your queries and requests, and one of our experts will call you shortly.</p>
 							<p>You can also send us your queries and requests through this online form and one of our team members will contact you shortly. They will take the time to discuss your requirements and provide the best services.</p>
 						</div>
 					</div>
