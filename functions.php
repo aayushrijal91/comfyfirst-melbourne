@@ -74,22 +74,18 @@ $menu = [
 ];
 
 $heating_services = [
-  'Gas Ducted Heating' => 'service-gas-ducted-heating',
-  'Ducted Heating' => 'service-ducted-heating',
-  'Wall Furnaces' => '', // waiting-on-content
-  'Gas Log Fires' => '', // waiting-on-content
-  'Hydronic Heating' => 'service-hydronic-heating',
-  'Space Heaters' => '', // waiting-on-content
-  'Room Sealed Appliances' => '', // waiting-on-content
-  'Duct Work Replacement Repairs Heating &amp; Cooling' => '', // waiting-on-content
+  // 'Wall Furnaces' => '', // waiting-on-content
+  // 'Gas Log Fires' => '', // waiting-on-content
+  // 'Space Heaters' => '', // waiting-on-content
+  // 'Duct Work Replacement Repairs Heating &amp; Cooling' => '', // waiting-on-content
   'Corrosion Protection' => 'corrosion-protection',
   'Split System Installation' => 'installation',
   'Split System Maintenance' => 'maintenance-tune-up',
   'Repairs' => 'repairs',
-  'Replacement' => 'replacement',
   'Rejuvenation Eco Clean' => 'rejuvenation-eco-clean',
   'Recharge & Leak Repairs' => 'recharge-leak-repairs',
   'Home Automation' => 'home-automation',
+  //'Replacement' => 'replacement',
 ];
 
 $cooling_services = [

@@ -136,7 +136,7 @@ include __DIR__ . '/src/banner.php';
 								<li>Affordable services</li>
 							</ul>
 
-							<p>For any more details regarding our home automation services, please call Comfy First <?= $global_city ?> at this number- <?= $phone ?>. You can also send us your queries and requests through this Online Form and one of our team members will contact you shortly. </p>
+							<p>For any more information about our <?= $banner ?> services, feel free to call Comfy First <?= $global_city ?> at this number- <a href="tel:<?= $phone ?>"><?= $phone ?></a>. You can also send us your queries and requests through this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> and one of our team members will contact you shortly. </p>
 						</div>
 					</div>
 					<div class="col-xxl-6 align-self-end">

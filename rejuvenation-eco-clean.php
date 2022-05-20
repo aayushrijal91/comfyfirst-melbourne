@@ -131,9 +131,7 @@ include __DIR__ . '/src/banner.php';
 							?>
 
 							<p>Experts remove the AC filters and covers, clean any obstructions in the drainpipe and tray, and then apply a specialist chemical treatment. This removes bacteria, pathogens, fungi, dust, and grime. After that, the team will use a jet machine blast to clean the system before reassembling it.</p>
-
-							<p>For any more information about our Rejuvenation Eco Clean services, feel free to call Comfy First <?= $global_city ?> at this number- <?= $phone ?>. You can also send us your queries and requests through this online form and one of our team members will contact you shortly.</p>
-
+							<p>For any more information about our <?= $banner ?> services, feel free to call Comfy First <?= $global_city ?> at this number- <a href="tel:<?= $phone ?>"><?= $phone ?></a>. You can also send us your queries and requests through this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> and one of our team members will contact you shortly. </p>
 						</div>
 					</div>
 					<div class="col-xxl-6 align-self-end">

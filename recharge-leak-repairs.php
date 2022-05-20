@@ -130,7 +130,7 @@ include __DIR__ . '/src/banner.php';
 
 							<p>If you discover any problems with your air con or suspect a gas leak, please call us right away. We will be at your site as soon as possible to examine, fix, and re-gas the unit.</p>
 
-							<p>For any more information about our recharge & leak repairs, feel free to call Comfy First <?= $global_city ?> at this number- <?= $phone ?>. You can also send us your queries and requests through this online form and one of our team members will contact you shortly.</p>
+							<p>For any more information about our <?= $banner ?> services, feel free to call Comfy First <?= $global_city ?> at this number- <a href="tel:<?= $phone ?>"><?= $phone ?></a>. You can also send us your queries and requests through this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> and one of our team members will contact you shortly. </p>
 						</div>
 					</div>
 					<div class="col-xxl-6 align-self-end">

@@ -140,7 +140,7 @@ include __DIR__ . '/src/banner.php';
 
 							<p>Our highly experienced AC repair team works with all major air conditioning brands including Daikin, Fujitsu, Brivis, Actron, Temperzone, Kelvinator and more. If you are having any trouble with your residential or commercial air conditioner, or feel that it isn’t performing well, efficiently, contact us for prompt solutions. </p>
 
-							<p>For any more information about our air conditioning repairs, feel free to call Comfy First <?= $global_city ?> at this number- <?= $phone ?>. You can also send us your queries and requests through this online form and one of our team members will contact you shortly.</p>
+							<p>For any more information about our <?= $banner ?> services, feel free to call Comfy First <?= $global_city ?> at this number- <a href="tel:<?= $phone ?>"><?= $phone ?></a>. You can also send us your queries and requests through this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> and one of our team members will contact you shortly. </p>
 
 						</div>
 					</div>

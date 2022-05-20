@@ -142,24 +142,12 @@ include __DIR__ . '/src/banner.php';
 								<li>Inspection of outdoor AC units & cooling towers</li>
 								<li>In commercial buildings, our team will inspect and maintain the larger systems as well</li>
 							</ul>
-							<p>For any more information about our maintenance tune up services, feel free to call Comfy First <?= $global_city ?> at this number- <?= $phone ?>. You can also send us your queries and requests through this online form and one of our team members will contact you shortly.</p>
+							<p>For any more information about our <?= $banner ?> services, feel free to call Comfy First <?= $global_city ?> at this number- <a href="tel:<?= $phone ?>"><?= $phone ?></a>. You can also send us your queries and requests through this <a href="<?= $domain ?>/contact" target="_blank">Online Form</a> and one of our team members will contact you shortly. </p>
 						</div>
 					</div>
 					<div class="col-xxl-6 align-self-end">
 						<?= lazyImg("split/family.png", randalts($alts), "ps-xxl-5") ?>
 					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="py-3 py-xxl-5">
-	<div class="container-fluid">
-		<div class="row justify-content-center">
-			<div class="col-xl-9">
-				<div class="row">
-					<p>For any more information about our maintenance tune up services, feel free to call Comfy First <?= $global_city ?> at this number - <?= $phone ?>. You can also send us your queries and requests through this online form and one of our team members will contact you shortly. </p>
 				</div>
 			</div>
 		</div>
