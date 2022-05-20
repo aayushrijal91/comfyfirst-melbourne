@@ -143,7 +143,6 @@ $commercial_air_con = [
   'Make-Up Air Supply Ventilator' => 'make-up-air-supply-ventilator',
   'Car Park Supply Systems' => 'car-park-supply-systems',
   'Stair Pressurisation System' => 'stair-pressurisation-system',
-  'Stair Pressurisation systems' => 'stair-pressurisation-systems',
   'Jet Fan Installation' => 'jet-fan-installation',
   'Commercial Ventilation' => 'commercial-ventilation',
   'Mechanical Ventilation' => 'mechanical-ventilation',
