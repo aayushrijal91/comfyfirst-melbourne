@@ -47,7 +47,8 @@ $alts = ['Technicians', '', 'Comfy First', 'Great Service'];
 			<p class="font-36 font-weight-500 line-height-1">Discover <span class="text-danger">ComfyFirst</span></p>
 			<p class="h6 fw-normal">Save money with <br>ComfyFirst's commitment <br>to value & professionalism</p>
 		</div>
-		<a href="#" class="text-red position-absolute center play" data-bs-toggle="modal" data-bs-target="#message" data-theVideo="https://www.youtube.com/embed/21fiOnYQOgc">
+		
+		<a href="#" class="text-red position-absolute center play" data-bs-toggle="modal" data-bs-target="#message" data-theVideo="https://www.youtube.com/embed/XWqZEjclFLY">
 			<span class="fa-stack h1 pulsered mb-0">
 				<i class="fas fa-circle fa-stack-2x"></i>
 				<i class="fas fa-play fa-stack-1x fa-inverse font-16"></i>
@@ -455,17 +456,17 @@ $alts = ['Technicians', '', 'Comfy First', 'Great Service'];
 			<?php $sctas = [
 				[
 					'heading' => 'PlumbFirst <br>Services',
-					'url' => 'services.php',
+					'url' => 'https://www.plumbfirstmelbourne.com.au/',
 					'cta' => ['Blocked Drains', 'Hot Water Systems', 'Gas Services',],
 				],
 				[
 					'heading' => 'ComfyFirst <br>Services',
-					'url' => 'services.php',
+					'url' => 'https://www.elecfirstadelaide.com.au/',
 					'cta' => ['Electrical Services', 'Lighting', 'Switchboards & Rewiring',],
 				],
 				[
 					'heading' => 'Heating <br>& Cooling',
-					'url' => 'services.php',
+					'url' => './',
 					'cta' => ['Air Conditioning', 'Heating', 'Repairs & Maintenance',],
 				],
 			];
@@ -483,7 +484,7 @@ $alts = ['Technicians', '', 'Comfy First', 'Great Service'];
 				<div class=" col-xxl-4 position-relative col<?= $n ?> <?= $bg ?>">
 					<div class="py-3 py-md-5 position-relative z-4 ">
 						<h3 class="display-2 fw-bold line-height-1 mb-md-5 mt-4"><?= $value['heading'] ?></h3>
-						<p class="mb-md-5 <?= $n != 1 ? 'ms-xxl-n2' : '' ?>"><a href="<?= $domain ?>/<?= $value['url'] ?>" class="text-white h5 fw-normal">Click to view all our services</a></p>
+						<p class="mb-md-5 <?= $n != 1 ? 'ms-xxl-n2' : '' ?>"><a href="<?= $value['url'] ?>" class="text-white h5 fw-normal">Click to view all our services</a></p>
 						<div class="mb-md-5 <?= $n != 1 ? 'ms-xxl-n5' : '' ?>">
 							<?php foreach ($value['cta'] as $k => $v) { ?>
 								<div class="cta card rounded-0 border-0 mb-1 bg-transparent ">
@@ -594,7 +595,6 @@ $alts = ['Technicians', '', 'Comfy First', 'Great Service'];
 						<div class="row p-3 p-md-5 p-xxl-0">
 							<?php $si = [
 								'Australian Quality Standards' => 'Strictly adhering to Australian Quality Standards',
-								'NSW Goverment Laws' => 'Abiding by Australian laws, procedures & safety',
 							];
 							$n = 0;
 							foreach ($si as $key => $value) {
